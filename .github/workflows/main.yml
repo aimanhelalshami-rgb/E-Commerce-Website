@@ -20,5 +20,5 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-directory: /htdocs # e.g., /public_html/
+        server-directory: /your/target/directory/ # e.g., /public_html/
         # You can add more options here, like 'exclude: .git*'
